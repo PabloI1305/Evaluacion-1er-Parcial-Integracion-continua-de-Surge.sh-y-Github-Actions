@@ -22,6 +22,6 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./ https://Pablo-Perez-2023-0194.surge.sh
+      run: surge ./ https://Pablo-2023-0194.surge.sh
       env:
         SURGE_TOKEN: ${{ a30010ff426f3b1e6b213f284b7b0b8a }}
