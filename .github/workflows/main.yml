@@ -3,7 +3,7 @@ name: Deploy to Surge
 on:
   push:
     branches:
-      - master  # O la rama principal de tu proyecto
+      - dev  
 
 jobs:
   deploy:
