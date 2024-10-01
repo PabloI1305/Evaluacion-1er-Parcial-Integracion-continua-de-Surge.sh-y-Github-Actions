@@ -22,6 +22,6 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./ https://<nombre-de-tu-sitio>.surge.sh
+      run: surge ./ https://tarea.surge.sh
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
